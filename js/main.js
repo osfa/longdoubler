@@ -35,6 +35,17 @@ window.onYouTubePlayerAPIReady = function(){
 // var leftSources = [ 'rVLpDz43lnQ', '7gqB2gqwN8o', 'KNuoGeD9Qeo', 'dztvutuN3V0', 'x0Do7I3kLjg', '1j41yNsI9yA', 'KKKId0LDwVc', 'gpvznAiKblU', 'co7KgV2edvI']; // fans
 // var rightSources = ['Y6QTdvbu0uI', 'hdmvMc7TZn0', 'Xq_xOibJBDc', 'WPni755-Krg', '2ER2a-RlFs4', 'gq8snFSEwlU', 'I_FpVaV1pHc', '1MPRbX7ACh8'];
 
+// backlog
+
+// - bara 10 timmars
+// - bara spirit i ena och fx i andra
+// - no controls
+
+// - kosmos vs insekter
+// - amibnance vvs freqs
+
+// - some silent? or no?
+
 var vids = [
     { id: 'aXEl7QmXTMk', volume: 100, duration: 43000 }, // ambient fan
     { id: 'rVLpDz43lnQ', volume: 60, duration: 30000 }, // Data Center White Noise | 1000s of Fans | For Sleep or Focus | 10 Hours
@@ -43,7 +54,7 @@ var vids = [
     { id: 'NeESf9aCZHQ', volume: 100, duration: 2400 }, // scifi
     { id: '5DWusPgTjiw', volume: 100, duration: 1800 }, // playground
     { id: 'lLBVKWC2jAQ', volume: 100, duration: 30000 }, // baby laughing
-    { id: '5AfEBjvfDYc', volume: 100, duration: 30000 }, // laughing
+    { id: '5AfEBjvfDYc', volume: 50, duration: 30000 }, // laughing
     { id: 'Gy_RHdE7zsc', volume: 100, duration: 1800 }, // computer fan
     { id: '4P_dm6Voupk', volume: 100, duration: 30000 }, // tinnitus
     { id: 'tfmHSUVLhVw', volume: 100, duration: 30000 }, // ▶️ MOSQUITO SOUND EFFECT. MOSQUITO BUZZING SOUND. MOSQUITO NOISE. 12 HOURS. 📢
@@ -62,7 +73,7 @@ var vids = [
     { id: 'olsGjU2GhIU', volume: 100, duration: 20000 }, // cracked screen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
 
-    { id: 's1V3XOrXtuo', volume: 100, duration: 3600 }, // cheering    
+    { id: 's1V3XOrXtuo', volume: 70, duration: 3600 }, // cheering    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
@@ -98,6 +109,7 @@ var vids = [
 
     { id: '9pJheICAck4', volume: 100, duration: 3600*3 }, // genius    
 
+    { id: '5YmURoB8eXc', volume: 80, duration: 3600*10 }, // michale    
 
 
 ];
