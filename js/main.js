@@ -52,8 +52,8 @@ var vids = [
     
     { id: 'KG8f-EV8vDo', volume: 100, duration: 20000 }, // bees    
     { id: 'dztvutuN3V0', volume: 100, duration: 20000 }, // mouseclicking    
-    { id: '1j41yNsI9yA', volume: 100, duration: 20000 }, // server room scifi    
-    { id: 'co7KgV2edvI', volume: 60, duration: 20000 }, // airplane cabin    
+    { id: '1j41yNsI9yA', volume: 100, duration: 3600*2 }, // server room scifi    
+    { id: 'co7KgV2edvI', volume: 30, duration: 20000 }, // airplane cabin    
     { id: 'L_LUpnjgPso', volume: 100, duration: 20000 }, // fireplace    
     { id: '4KzFe50RQkQ', volume: 100, duration: 20000 }, // wind    
 
@@ -86,7 +86,7 @@ var vids = [
 
     
     { id: 'w6sbrmcrSuo', volume: 100, duration: 4000 }, // aura cleaningse    
-    { id: 'dJoXVILGeKQ', volume: 100, duration: 40000 }, // allthemtones    
+    { id: 'dJoXVILGeKQ', volume: 100, duration: 3600 }, // allthemtones    
     { id: 'a7JY4EnXbpU', volume: 100, duration: 3600 }, // morebowls    
     { id: '5sbRuUC6ocE', volume: 100, duration: 3600 }, // morebowls    
     { id: 'Y6QTdvbu0uI', volume: 100, duration: 3600 }, // singing bowls    
@@ -94,7 +94,11 @@ var vids = [
 
     { id: '1x_BwvG19ag', volume: 100, duration: 3600*10 }, // clapping   
     { id: 'HNOEt2eWYLI', volume: 70, duration: 3600*10 }, // moo  
-    { id: 'ChdpflTAvok', volume: 70, duration: 3600 }, // applause    
+    { id: 'ChdpflTAvok', volume: 50, duration: 3600 }, // applause  
+
+    { id: '9pJheICAck4', volume: 100, duration: 3600*3 }, // genius    
+
+
 
 ];
 
