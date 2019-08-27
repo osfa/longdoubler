@@ -48,20 +48,20 @@ window.onYouTubePlayerAPIReady = function(){
 
 var vids = [
     { id: 'aXEl7QmXTMk', volume: 100, duration: 43000 }, // ambient fan
-    { id: 'rVLpDz43lnQ', volume: 60, duration: 30000 }, // Data Center White Noise | 1000s of Fans | For Sleep or Focus | 10 Hours
+    { id: 'rVLpDz43lnQ', volume: 30, duration: 30000 }, // Data Center White Noise | 1000s of Fans | For Sleep or Focus | 10 Hours
     { id: '7gqB2gqwN8o', volume: 100, duration: 3600 }, // silence
     { id: 'WPni755-Krg', volume: 100, duration: 200 }, // Study Music Alpha Waves: Relaxing Studying Music, Brain Power, Focus Conce
     { id: 'NeESf9aCZHQ', volume: 100, duration: 2400 }, // scifi
     { id: '5DWusPgTjiw', volume: 100, duration: 1800 }, // playground
     { id: 'lLBVKWC2jAQ', volume: 100, duration: 30000 }, // baby laughing
     { id: '5AfEBjvfDYc', volume: 50, duration: 30000 }, // laughing
-    { id: 'Gy_RHdE7zsc', volume: 100, duration: 1800 }, // computer fan
+    { id: 'Gy_RHdE7zsc', volume: 70, duration: 1800 }, // computer fan
     { id: '4P_dm6Voupk', volume: 100, duration: 30000 }, // tinnitus
     { id: 'tfmHSUVLhVw', volume: 100, duration: 30000 }, // ▶️ MOSQUITO SOUND EFFECT. MOSQUITO BUZZING SOUND. MOSQUITO NOISE. 12 HOURS. 📢
     { id: 'Nbbhz6ovRUc', volume: 100, duration: 20000 }, // fly buzzing
     { id: 'WbEGmghn_jo', volume: 100, duration: 20000 }, // airplane white npose    
     
-    { id: 'KG8f-EV8vDo', volume: 100, duration: 20000 }, // bees    
+    { id: 'KG8f-EV8vDo', volume: 60, duration: 20000 }, // bees    
     { id: 'dztvutuN3V0', volume: 100, duration: 20000 }, // mouseclicking    
     { id: '1j41yNsI9yA', volume: 100, duration: 3600*2 }, // server room scifi    
     { id: 'co7KgV2edvI', volume: 30, duration: 20000 }, // airplane cabin    
@@ -78,7 +78,7 @@ var vids = [
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
 
-    { id: 'SFhztah2aVA', volume: 80, duration: 6400 }, // data center    
+    { id: 'SFhztah2aVA', volume: 25, duration: 6400 }, // data center    
     { id: 'gLLvXi1Usrc', volume: 80, duration: 6400 }, // data center    
 
 
@@ -105,12 +105,28 @@ var vids = [
 
     { id: '1x_BwvG19ag', volume: 100, duration: 3600*10 }, // clapping   
     { id: 'HNOEt2eWYLI', volume: 70, duration: 3600*10 }, // moo  
-    { id: 'ChdpflTAvok', volume: 50, duration: 3600 }, // applause  
+    { id: 'ChdpflTAvok', volume: 25, duration: 3600 }, // applause  
 
     { id: '9pJheICAck4', volume: 100, duration: 3600*3 }, // genius    
 
     { id: '5YmURoB8eXc', volume: 80, duration: 3600*10 }, // michale    
 
+    { id: 'b6YBBLVMgD4', volume: 100, duration: 3600 }, // manifest    
+    { id: 'kn1sRMewWxg', volume: 100, duration: 3600 }, // manifest money    
+    { id: 'hTUJfmeJ1MU', volume: 100, duration: 3600 }, // money magnet    
+    { id: 'BfUVq5nlE_I', volume: 100, duration: 3600 }, // money vibration    
+    { id: 'azoM-E7D7PI', volume: 100, duration: 3600 }, // abundance    
+
+// ZXYcOcUkbNQ //dolphins
+
+//tTHKyJUqP44 // rain
+
+// u2nbCtN_AaQ BSOD
+// r3y-6NLR5mo // bluscreen
+// whales, dolphins, seagulls, man crying, sobbing
+
+// https://www.youtube.com/watch?v=utpacWu-bzI fortnite deaths oudns
+// rain sounds
 
 ];
 
