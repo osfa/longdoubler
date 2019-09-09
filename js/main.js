@@ -37,14 +37,21 @@ window.onYouTubePlayerAPIReady = function(){
 
 // backlog
 
-// - bara 10 timmars
+// - bara 10 timmars....Naaaah
 // - bara spirit i ena och fx i andra
 // - no controls
 
 // - kosmos vs insekter
 // - amibnance vvs freqs
 
+// places?
+
 // - some silent? or no?
+
+
+// https://www.youtube.com/watch?v=vHEIImSM1Do&t=2s market
+// https://www.youtube.com/watch?v=utpacWu-bzI fortnite deaths oudns
+
 
 var vids = [
     { id: 'aXEl7QmXTMk', volume: 100, duration: 43000 }, // ambient fan
@@ -104,12 +111,12 @@ var vids = [
     { id: '2X4RKVwvP0g', volume: 100, duration: 3600 }, // singing bowls    
 
     { id: '1x_BwvG19ag', volume: 100, duration: 3600*10 }, // clapping   
-    { id: 'HNOEt2eWYLI', volume: 70, duration: 3600*10 }, // moo  
+    { id: 'HNOEt2eWYLI', volume: 70, duration: 3600*10 }, // moo, cow 
     { id: 'ChdpflTAvok', volume: 25, duration: 3600 }, // applause  
 
     { id: '9pJheICAck4', volume: 100, duration: 3600*3 }, // genius    
 
-    { id: '5YmURoB8eXc', volume: 80, duration: 3600*10 }, // michale    
+    { id: '5YmURoB8eXc', volume: 80, duration: 3600*10 }, // michael jackson    
 
     { id: 'b6YBBLVMgD4', volume: 100, duration: 3600 }, // manifest    
     { id: 'kn1sRMewWxg', volume: 100, duration: 3600 }, // manifest money    
@@ -117,16 +124,29 @@ var vids = [
     { id: 'BfUVq5nlE_I', volume: 100, duration: 3600 }, // money vibration    
     { id: 'azoM-E7D7PI', volume: 100, duration: 3600 }, // abundance    
 
-// ZXYcOcUkbNQ //dolphins
+    { id: 'u2nbCtN_AaQ', volume: 100, duration: 3600*10 }, // BSOD    
+    { id: '5OHma-x7NdI', volume: 100, duration: 3600*10 }, // rain asmr
+    { id: '8y4tHJZxWs4', volume: 100, duration: 3600*10 }, // rain    
+    // { id: 'nDq6TstdEi8', volume: 100, duration: 3600*10 }, // rain thunder
+    { id: '8plwv25NYRo', volume: 100, duration: 3600*10 }, // rain wood    
+    { id: 'tTHKyJUqP44', volume: 100, duration: 3600*10 }, // rain black    
 
-//tTHKyJUqP44 // rain
 
-// u2nbCtN_AaQ BSOD
-// r3y-6NLR5mo // bluscreen
-// whales, dolphins, seagulls, man crying, sobbing
+    { id: 'd1MWxSUO4ts', volume: 80, duration: 3600*10 }, // baby crying    
+    { id: 'ZXYcOcUkbNQ', volume: 100, duration: 3600*10 }, // dolphins
+    { id: 'r3y-6NLR5mo', volume: 100, duration: 3600*10 }, // blue screen
+    { id: 'nMfPqeZjc2c', volume: 100, duration: 3600*10 }, // white noise blacks creen
 
-// https://www.youtube.com/watch?v=utpacWu-bzI fortnite deaths oudns
-// rain sounds
+
+    { id: 'mxGT_xuCizg', volume: 80, duration: 3600*10 }, // sea gull    
+    { id: 'f1A7SdVTlok', volume: 100, duration: 3600*10 }, // timer
+    { id: 'nrWU8prG7YI', volume: 100, duration: 3600*10 }, // whales and shit
+    { id: 'nDqP7kcr-sc', volume: 100, duration: 3600*8 }, // whales
+
+    { id: 'amRDYrLHwpI', volume: 100, duration: 3600*12 }, // color shift
+    { id: 'sZnqC6e2Sek', volume: 100, duration: 3600*10 }, // pink screen
+    { id: 'zpLtgcSG08s', volume: 100, duration: 3600*10 }, // violet
+    { id: 'r_nxQ0wUA_w', volume: 100, duration: 3600*10 }, // moar whales
 
 ];
 
@@ -153,7 +173,12 @@ var switchVideo = function(sources, player, currentlyPlaying){
         selected = sources.randomElement();
     }
     currentlyPlaying = selected;
-    player.loadVideoById(selected.id, getRandomInt(selected.duration));
+    var pos = getRandomInt(selected.duration);
+    var intervalInSeconds = interval/1000;
+    if(pos > intervalInSeconds){
+        pos = pos - intervalInSeconds;
+    }
+    player.loadVideoById(selected.id, pos);
     player.setVolume(selected.volume);
 };
 
