@@ -125,7 +125,7 @@ var vids = [
     { id: 'azoM-E7D7PI', volume: 100, duration: 3600 }, // abundance    
 
     { id: 'u2nbCtN_AaQ', volume: 100, duration: 3600*10 }, // BSOD    
-    { id: '5OHma-x7NdI', volume: 100, duration: 3600*10 }, // rain asmr
+    { id: 'LvcmYjdqrWc', volume: 100, duration: 3600*10 }, // night rain sounds
     { id: '8y4tHJZxWs4', volume: 100, duration: 3600*10 }, // rain    
     // { id: 'nDq6TstdEi8', volume: 100, duration: 3600*10 }, // rain thunder
     { id: '8plwv25NYRo', volume: 100, duration: 3600*10 }, // rain wood    
@@ -138,7 +138,7 @@ var vids = [
     { id: 'nMfPqeZjc2c', volume: 100, duration: 3600*10 }, // white noise blacks creen
 
 
-    { id: 'mxGT_xuCizg', volume: 80, duration: 3600*10 }, // sea gull    
+    { id: 'mxGT_xuCizg', volume: 50, duration: 3600*10 }, // sea gull    
     { id: 'f1A7SdVTlok', volume: 100, duration: 3600*10 }, // timer
     { id: 'nrWU8prG7YI', volume: 100, duration: 3600*10 }, // whales and shit
     { id: 'nDqP7kcr-sc', volume: 100, duration: 3600*8 }, // whales
