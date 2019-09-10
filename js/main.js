@@ -148,6 +148,18 @@ var vids = [
     { id: 'zpLtgcSG08s', volume: 100, duration: 3600*10 }, // violet
     { id: 'r_nxQ0wUA_w', volume: 100, duration: 3600*10 }, // moar whales
 
+
+    { id: 'OB0S7D_K30A', volume: 100, duration: 3600*3 }, // 417 hz
+    { id: 'DskPs2c2biw', volume: 100, duration: 3600*7 }, // DARK FAN WHITE NOISE = FAN SOUND EFFECT w/ DARK SCREEN for Sleeping
+
+    { id: 'to1ZoOVyZU4', volume: 100, duration: 3600*3 }, // hair dyrery
+    { id: 'mcqadVcbX-w', volume: 100, duration: 3600*1 }, // white server room
+
+    { id: 'CCnCMHNyny8', volume: 100, duration: 3600*10 }, // white noise
+    { id: 'PJSgFoZokpk', volume: 100, duration: 3600*2 }, // vacuum cleaner
+
+
+
 ];
 
 var interval = 30000;
