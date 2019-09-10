@@ -43,6 +43,7 @@ window.onYouTubePlayerAPIReady = function(){
 
 // - kosmos vs insekter
 // - amibnance vvs freqs
+// porlande vatte vs noise
 
 // places?
 
@@ -157,6 +158,10 @@ var vids = [
 
     { id: 'CCnCMHNyny8', volume: 100, duration: 3600*10 }, // white noise
     { id: 'PJSgFoZokpk', volume: 100, duration: 3600*2 }, // vacuum cleaner
+
+    { id: 'xKjOZUVeWKM', volume: 100, duration: 3600*11 }, // creek
+    { id: 'tnV3TS55TpE', volume: 100, duration: 3600*10 }, // creek
+
 
 
 
