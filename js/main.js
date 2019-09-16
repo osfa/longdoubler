@@ -163,6 +163,12 @@ var vids = [
     { id: 'tnV3TS55TpE', volume: 100, duration: 3600*10 }, // creek
 
 
+    { id: 'ykBuQqGbFlI', volume: 100, duration: 3600*12 }, // facebook sound
+    { id: 'ILzo07ipH40', volume: 100, duration: 3600*10 }, // countdown
+    { id: 'OE9bF80KQGk', volume: 100, duration: 3600*10 }, // aircon
+    { id: 'zJQ0_cHOk4w', volume: 100, duration: 3600*10 }, // aircon2
+    { id: '_wGwcPuXykI', volume: 100, duration: 3600*10 }, // aircon3
+
 
 
 ];
