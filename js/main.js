@@ -55,6 +55,7 @@ window.onYouTubePlayerAPIReady = function(){
 
 
 var vids = [
+
     { id: 'aXEl7QmXTMk', volume: 100, duration: 43000 }, // ambient fan
     { id: 'rVLpDz43lnQ', volume: 30, duration: 30000 }, // Data Center White Noise | 1000s of Fans | For Sleep or Focus | 10 Hours
     { id: '7gqB2gqwN8o', volume: 100, duration: 3600 }, // silence
@@ -64,7 +65,7 @@ var vids = [
     { id: 'lLBVKWC2jAQ', volume: 100, duration: 30000 }, // baby laughing
     { id: '5AfEBjvfDYc', volume: 50, duration: 30000 }, // laughing
     { id: 'Gy_RHdE7zsc', volume: 70, duration: 1800 }, // computer fan
-    { id: '4P_dm6Voupk', volume: 100, duration: 30000 }, // tinnitus
+    { id: '4P_dm6Voupk', volume: 80, duration: 30000 }, // tinnitus
     { id: 'tfmHSUVLhVw', volume: 100, duration: 30000 }, // ▶️ MOSQUITO SOUND EFFECT. MOSQUITO BUZZING SOUND. MOSQUITO NOISE. 12 HOURS. 📢
     { id: 'Nbbhz6ovRUc', volume: 100, duration: 20000 }, // fly buzzing
     { id: 'WbEGmghn_jo', volume: 100, duration: 20000 }, // airplane white npose    
@@ -81,7 +82,7 @@ var vids = [
     { id: 'olsGjU2GhIU', volume: 100, duration: 20000 }, // cracked screen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
 
-    { id: 's1V3XOrXtuo', volume: 70, duration: 3600 }, // cheering    
+    { id: 's1V3XOrXtuo', volume: 50, duration: 3600 }, // cheering    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
     { id: 'BDHk7SYW0qY', volume: 100, duration: 40000 }, // greenscreen    
@@ -121,7 +122,7 @@ var vids = [
 
     { id: 'b6YBBLVMgD4', volume: 100, duration: 3600 }, // manifest    
     { id: 'kn1sRMewWxg', volume: 100, duration: 3600 }, // manifest money    
-    { id: 'hTUJfmeJ1MU', volume: 100, duration: 3600 }, // money magnet    
+    { id: 'hTUJfmeJ1MU', volume: 60, duration: 3600 }, // money magnet    
     { id: 'BfUVq5nlE_I', volume: 100, duration: 3600 }, // money vibration    
     { id: 'azoM-E7D7PI', volume: 100, duration: 3600 }, // abundance    
 
@@ -139,7 +140,7 @@ var vids = [
     { id: 'nMfPqeZjc2c', volume: 100, duration: 3600*10 }, // white noise blacks creen
 
 
-    { id: 'mxGT_xuCizg', volume: 50, duration: 3600*10 }, // sea gull    
+    { id: 'mxGT_xuCizg', volume: 30, duration: 3600*10 }, // sea gull    
     { id: 'f1A7SdVTlok', volume: 100, duration: 3600*10 }, // timer
     { id: 'nrWU8prG7YI', volume: 100, duration: 3600*10 }, // whales and shit
     { id: 'nDqP7kcr-sc', volume: 100, duration: 3600*8 }, // whales
@@ -153,21 +154,23 @@ var vids = [
     { id: 'OB0S7D_K30A', volume: 100, duration: 3600*3 }, // 417 hz
     { id: 'DskPs2c2biw', volume: 100, duration: 3600*7 }, // DARK FAN WHITE NOISE = FAN SOUND EFFECT w/ DARK SCREEN for Sleeping
 
-    { id: 'to1ZoOVyZU4', volume: 100, duration: 3600*3 }, // hair dyrery
+    { id: 'to1ZoOVyZU4', volume: 40, duration: 3600*3 }, // hair dyrery
     { id: 'mcqadVcbX-w', volume: 100, duration: 3600*1 }, // white server room
 
     { id: 'CCnCMHNyny8', volume: 100, duration: 3600*10 }, // white noise
     { id: 'PJSgFoZokpk', volume: 100, duration: 3600*2 }, // vacuum cleaner
 
-    { id: 'xKjOZUVeWKM', volume: 100, duration: 3600*11 }, // creek
-    { id: 'tnV3TS55TpE', volume: 100, duration: 3600*10 }, // creek
+    { id: 'xKjOZUVeWKM', volume: 60, duration: 3600*11 }, // creek
+    { id: 'tnV3TS55TpE', volume: 40, duration: 3600*10 }, // creek
 
 
     { id: 'ykBuQqGbFlI', volume: 100, duration: 3600*12 }, // facebook sound
     { id: 'ILzo07ipH40', volume: 100, duration: 3600*10 }, // countdown
     { id: 'OE9bF80KQGk', volume: 100, duration: 3600*10 }, // aircon
     { id: 'zJQ0_cHOk4w', volume: 100, duration: 3600*10 }, // aircon2
-    { id: '_wGwcPuXykI', volume: 100, duration: 3600*10 }, // aircon3
+    { id: '_wGwcPuXykI', volume: 100, duration: 3600*2 }, // aircon3
+
+    { id: 'XEBl9ZQXloE', volume: 100, duration: 3600*10 }, // tent
 
 
 
